@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#game-board{
+    border: 2px black solid;
+    height: 500px;
+    width: 500px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.cell{
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 40px;
+
+}
+
